@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>hello</groupId>
-    <artifactId>spring-boot-spring-loaded-java8-example</artifactId>
+    <artifactId>ulisses</artifactId>
     <packaging>jar</packaging>
     <version>0.0.1-SNAPSHOT</version>
 
