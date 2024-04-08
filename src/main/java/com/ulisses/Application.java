@@ -1,17 +1,18 @@
-package com;
+package com.ulisses;
 
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 
+
+@ComponentScan (basePackages = {"com.ulisses.controllers"})
 @SpringBootApplication
-@ComponentScan (basePackages = {"com.controllers"})
+@EnableAutoConfiguration
 public class Application {
 
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
     }
 }
-
-
